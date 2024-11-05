@@ -28,6 +28,7 @@ Paragraph default: 1.6
 - Tints:
 #fdf2e9
 #fae5d3
+#eb984e€
 
 - Shades:
 #cf711f
@@ -38,6 +39,7 @@ Paragraph default: 1.6
 #333
 
 --- 05 SHADOWS 
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 --- 06 BORDER-RADIUS 
 
@@ -236,3 +238,7 @@ btn--outline:active {
 strong {
   font-weight: 500;
 }
+
+
+
+
