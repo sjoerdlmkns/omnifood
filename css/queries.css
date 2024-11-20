@@ -123,6 +123,7 @@
   /* Mobile navigation */
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
@@ -265,12 +266,11 @@
   }
 
   .testimonials {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
-  
+
   .gallery {
     grid-template-columns: repeat(4, 1fr);
-
   }
 
   .cta {
@@ -285,8 +285,6 @@
     height: 32rem;
     grid-row: 1;
   }
-
-
 }
 
 /* - Font sizes (px)
